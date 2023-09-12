@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricng Plan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="wrapper">
+        <div class="left">
+          <div class="strategy-container">
+            <h3>Strategy Services</h3>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                name="service-1"
+                id="service-1"
+                value="200"
+              />
+              <label for="service-1">
+                <p>Service 1</p>
+                <p>$200</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                name="service-2"
+                id="service-2"
+                value="325"
+              />
+              <label for="service-2">
+                <p>Service 2</p>
+                <p>$325</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                name="service-3"
+                id="service-3"
+                value="800"
+              />
+              <label for="service-3">
+                <p>Service 3</p>
+                <p>$800</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                name="service-4"
+                id="service-4"
+                value="1374"
+              />
+              <label for="service-4">
+                <p>Service 4</p>
+                <p>$1,374</p>
+              </label>
+            </div>
+          </div>
+
+          <h3>Webflow Hosted</h3>
+          <select name="webflow" id="webflow">
+            <option value="0">Select one...</option>
+            <option value="100">Personal Account</option>
+            <option value="500">Team Account</option>
+            <option value="721">Enterprise Account</option>
+            <option value="1693">WF-Others</option>
+          </select>
+          <h3>Self Hosted</h3>
+          <select name="self" id="self">
+            <option value="0">Select one...</option>
+            <option value="550">Personal Server</option>
+            <option value="999">GoDaddy</option>
+            <option value="50">Other</option>
+          </select>
+          <h3>Branding Option</h3>
+          <div class="branding-container">
+            <div class="form-group">
+              <input
+                type="radio"
+                name="brand"
+                id="no-brand"
+                value="0"
+                checked="checked"
+              />
+              <label for="no-brand">
+                <p>No Service</p>
+                <p>$0</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input type="radio" name="brand" id="brand-1" value="150" />
+              <label for="brand-1">
+                <p>Service 1</p>
+                <p>$150</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input type="radio" name="brand" id="brand-2" value="400" />
+              <label for="brand-2">
+                <p>Service 2</p>
+                <p>$400</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input type="radio" name="brand" id="brand-3" value="3400" />
+              <label for="brand-3">
+                <p>Service 3</p>
+                <p>$3,400</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input type="radio" name="brand" id="brand-4" value="50" />
+              <label for="brand-4">
+                <p>Service 4</p>
+                <p>$50</p>
+              </label>
+            </div>
+          </div>
+          <div class="dev-container">
+            <h3>Development Options</h3>
+            <div class="form-group">
+              <input
+                type="radio"
+                name="development"
+                id="dev-0"
+                value="0"
+                checked="checked"
+              />
+              <label for="dev-0">
+                <p>No Service</p>
+                <p>$0</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input type="radio" name="development" id="dev-1" value="410" />
+              <label for="dev-1">
+                <p>Service 1</p>
+                <p>$410</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input type="radio" name="development" id="dev-2" value="1400" />
+              <label for="dev-2">
+                <p>Service 2</p>
+                <p>$1,400</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input type="radio" name="development" id="dev-3" value="6000" />
+              <label for="dev-3">
+                <p>Service 3</p>
+                <p>$6,000</p>
+              </label>
+            </div>
+            <div class="form-group">
+              <input type="radio" name="development" id="dev-4" value="10300" />
+              <label for="dev-4">
+                <p>Service 4</p>
+                <p>$10,300</p>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="price">
+            <span>$</span>
+            <h2>100</h2>
+          </div>
+          <div class="price2">
+            <span>$</span>
+            <h2>100</h2>
+          </div>
+          <input type="text" id="last">
+          <button class="btn-submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>

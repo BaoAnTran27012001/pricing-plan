@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(224, 81, 224);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.wrapper{
+    max-width: 1200px;
+    background-color: white;
+    padding: 60px;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.form-group{
+    display: flex;
+    gap: 10px;
+}
+label p{
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 2px 0;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  padding: 8px;
+  border: 2px solid black;
+  width: 100%;
+}
+.price{
+    display: flex;
+}
+.price h2{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 300;
+}
+.btn-submit{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 12px 52px;
+    background-color: black;
+    color: aquamarine;
+    cursor: pointer;
+}
+@media screen and (max-width:460px) {
+    .wrapper{
+        padding: 40px;
+    }
+    .right h2{
+        font-size: 38px;
+    }
+}
