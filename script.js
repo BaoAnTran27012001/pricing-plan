@@ -80,6 +80,3 @@ document.body.addEventListener("load", preprocessingInput(strategyGroupEl));
 document.body.addEventListener("load", preprocessingInput(brandingGroupEl));
 document.body.addEventListener("load", preprocessingInput(devGroupEl));
 document.body.addEventListener("load", preprocessingOption(optionWebFlow));
-document.body.addEventListener("load", preprocessingOption(optionWebSelf));
-
-[3400]; //push(3400)
